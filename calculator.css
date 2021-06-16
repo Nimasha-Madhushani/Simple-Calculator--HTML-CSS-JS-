@@ -1,0 +1,108 @@
+body{
+    background-image: url(https://i.pinimg.com/originals/a6/1a/b6/a61ab69461c264dac81d3a12dfebd9ac.jpg);
+    background-size: cover;
+}
+
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    margin-left: 510px;
+    margin-bottom: 80px;
+    margin-top: 50px;
+    font-size: 75px;
+}
+
+.display{
+    background: rgb(226, 225, 161);
+    padding:15px;
+    width: 250px;
+    text-align: right;
+    font-size: 20px;
+    border-radius: 8px;
+    
+    
+}
+
+button{
+    padding: 10px;
+    width: 67px;
+    height: 45px;
+    margin-top: 10px;
+    background-color: rgb(166, 167, 179);
+    font-size: 25px;
+    border-radius: 5px;
+    box-shadow: 0 3px #999;
+    color: white;
+    font-weight: bolder;
+    
+}
+
+#row_1-col_1{
+    background-color: rgb(231, 64, 167);
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: rgb(191, 209, 218);
+}
+
+button:focus{
+    outline: none;
+}
+
+button:active{
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+
+}
+
+#row_1-col_1,#row_5-col_1{ width: 138px;}
+
+.calc{
+    margin-left: 600px;
+    background-color: black;
+    border-radius: 8px;
+    padding-top: 2px;
+    margin-right: 585px;
+    
+    
+}
+.calc_inner{
+    margin-left: 25px;
+   
+   
+}
+
+#row_5-col_1,#row_5-col_2,#row_5-col_3{
+    margin-bottom: 25px;
+}
+
+.display{
+    margin-top: 25px;
+}
+
+#casio{
+    text-align: right;
+    margin-right: 30px;
+    font-weight: bolder;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+#row_1-col_2,#row_1-col_3,#row_2-col_4,#row_3-col_4,#row_4-col_4{
+    background-color: rgb(38, 209, 172);
+}
+
+#row_1-col_2:hover,#row_1-col_3:hover,#row_2-col_4:hover,#row_3-col_4:hover,#row_4-col_4:hover{
+    background-color: rgb(82, 240, 192);
+}
+#row_1-col_1:hover{
+    background-color: rgb(211, 18, 115);
+}
+
+#image{
+    width: 25px;
+    height: 25px;
+}
